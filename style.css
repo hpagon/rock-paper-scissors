@@ -1,0 +1,57 @@
+/* pallete link https://coolors.co/palette/582f0e-7f4f24-936639-a68a64-b6ad90-c2c5aa-a4ac86-656d4a-414833-333d29 */
+
+body {
+    background-color: #B6AD90;
+}
+
+div {
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-size: 40px;
+}
+
+div:nth-child(2) {
+    width: 30%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.choices {
+    margin: auto;
+    width: 60%;
+    justify-content: space-around;
+}
+
+
+h1 {
+    color: #582F0E;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.choice {
+    background-color: #656D4A;
+    font-weight: 700;
+    font-size: 25px;
+    width: 200px;
+    height: 75px;
+    border: 0;
+    border-radius: 25px;
+}
