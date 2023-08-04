@@ -12,10 +12,8 @@
     </div>
     <div>
       <h2>First to five wins</h2>
-      <h3>You: <span>0</span> - Computer: <span>0</span></h3>
-      <p>
-        You chose <span>rock</span>, computer chooses
-        <span class="computerChoice">...</span>
+      <h3>You: <span id="playerScore">0</span> - Computer: <span id="computerScore">0</span></h3>
+      <p class="message"> You choose...
       </p>
     </div>
     <div class="choices">
@@ -23,6 +21,11 @@
       <button class="choice">Paper</button>
       <button class="choice">Scissors</button>
     </div>
+    <dialog class="modal">
+        <p></p>
+        <button id="playAgain">Play Again</button>
+        <button id="close">Close</button>
+    </dialog>
     <script src="app.js"></script>
   </body>
 </html>
