@@ -1,6 +1,8 @@
 /* pallete link https://coolors.co/palette/582f0e-7f4f24-936639-a68a64-b6ad90-c2c5aa-a4ac86-656d4a-414833-333d29 */
 body {
     background-color: #B6AD90;
+    font-family: 'Ubuntu';
+    text-align: center;
 }
 
 div {
@@ -23,8 +25,10 @@ div:nth-child(2) {
 
 .choices {
     margin: auto;
+    display: flex;
     width: 60%;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 
 
@@ -45,7 +49,7 @@ p {
 }
 
 
-.choice {
+button {
     background-color: #656D4A;
     font-weight: 700;
     font-size: 25px;
@@ -55,3 +59,18 @@ p {
     border-radius: 25px;
 }
 
+dialog {
+    border: 0;
+    border-radius: 20px;
+}
+
+dialog p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+dialog button {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+}
